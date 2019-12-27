@@ -23,5 +23,9 @@ onBlueprintAdded(bluePrintData:{bluePrintName:string, bluePrintContent: string})
     content: bluePrintData.bluePrintContent
   });
 }
+
+onChangeFirst(){
+  this.serverElements[0].name = 'Changed!!';
+}
  
 }
